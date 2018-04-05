@@ -4832,7 +4832,7 @@
       ]
     },
     "Microsoft.ApplicationInsights/2.4.0": {
-      "sha512": "yA78Kl9egwdkZWEgdV9KWQyGI6dbzFiCuseLWAO+zxHjKHe4PXFjROJiquceh9x608m/1/iCyYxHbTAcnI8xLA==",
+      "sha512": "4dX/zu3Psz9oM3ErU64xfOHuSxOwMxN6q5RabSkeYbX42Yn6dR/kDToqjs+txCRjrfHUxyYjfeJHu+MbCfvAsg==",
       "type": "package",
       "path": "microsoft.applicationinsights/2.4.0",
       "files": [
@@ -4852,7 +4852,7 @@
       ]
     },
     "Microsoft.ApplicationInsights.AspNetCore/2.1.1": {
-      "sha512": "Qs35OTUlLDewnr4mzOS8SrGwvmXofa+ho7lF5/wWUfpN2dDQrzHM3s/F16G9gKZGLWHflK323Izm1dusm1EQRw==",
+      "sha512": "kiGmzl9Cav34dF7AHVMoJxdJJQEeLB8KZGNwX1LjImG9iem5hGk4DkHpW7/m9Nh3DrL8IKSL3mqQo+IPqWfMRQ==",
       "type": "package",
       "path": "microsoft.applicationinsights.aspnetcore/2.1.1",
       "files": [
@@ -4865,7 +4865,7 @@
       ]
     },
     "Microsoft.ApplicationInsights.DependencyCollector/2.4.1": {
-      "sha512": "GCHZ/zlM/CI3f1wnsi5Wb4KGo+duT+gpzg+VpC/jB4tGXMddzsmU8Hgv7WKOe7R6S+rkEXnvDFYkP6wVe5fHRA==",
+      "sha512": "RWxdX90MY6tNF8S5lwRvJcHiBMIWwVLCxd4TGIEl3X0yAKaolY2vs4zTCvyCIVkEAMs1aInTgWkYwOjzYvAHWw==",
       "type": "package",
       "path": "microsoft.applicationinsights.dependencycollector/2.4.1",
       "files": [
@@ -7002,7 +7002,7 @@
       ]
     },
     "Microsoft.NETCore.App/2.0.0": {
-      "sha512": "t1bhX74kiE44SJKUA2FwSovxtnVFroQEPx9rJR6ZSAF1ubiEp0hslpQeRgak2chKZam9DAqgICyj2OClHKM9Dg==",
+      "sha512": "/mzXF+UtZef+VpzzN88EpvFq5U6z4rj54ZMq/J968H6pcvyLOmcupmTRpJ3CJm8ILoCGh9WI7qpDdiKtuzswrQ==",
       "type": "package",
       "path": "microsoft.netcore.app/2.0.0",
       "files": [
@@ -7280,7 +7280,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetAppHost/2.0.0": {
-      "sha512": "SM6mF0pM6I64LLW07L7RtU9iGeV2ikHvPkoKiWozCTr0R40Rpk3pbE/hd6stlgkZag5y4riA0/a8bQZE9jW0DQ==",
+      "sha512": "L4GGkcI/Mxl8PKLRpFdGmLb5oI8sGIR05bDTGkzCoamAjdUl1Zhkov2swjEsZvKYT8kkdiz39LtwyGYuCJxm1A==",
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.0.0",
       "files": [
@@ -7292,7 +7292,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostPolicy/2.0.0": {
-      "sha512": "+n1XLtkupecClOv8V4uEK1LLDklxL9Jk6gDNIlS1tqHUCNAqGUO10NEkbsn9Ht5mUK4Kxlw7jMNYIQeEfTzm5w==",
+      "sha512": "rm7mMn0A93fwyAwVhbyOCcPuu2hZNL0A0dAur9sNG9pEkONPfCEQeF7m2mC8KpqZO0Ol6tpV5J0AF3HTXT3GXA==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostpolicy/2.0.0",
       "files": [
@@ -7304,7 +7304,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostResolver/2.0.0": {
-      "sha512": "zuNyzP6S2iOWH/mbOJZ0S4zwtZAsObxCzKtPNPB/taBGIeR1S1GFopYiNZrGCf6IemcHJ1a6/FAkpVUufkuW0w==",
+      "sha512": "uBbjpeSrwsaTCADZCzRk+3aBzNnMqkC4zftJWBsL+Zk+8u+W+/lMb2thM5Y4hiVrv1YQg9t6dKldXzOKkY+pQw==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostresolver/2.0.0",
       "files": [
@@ -7316,15 +7316,15 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.0.0": {
-      "sha512": "/zdGEHJr5v4U/Ve8+A6RrF7LgFTszXSzIS13az1XMT9wNjbu014H8ciAiRN/b/jxNqIfcNCHdhj/4dtIMdL9gA==",
+      "sha512": "VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.0.0",
       "files": [
         "LICENSE.TXT",
+        "Microsoft.NETCore.Platforms.2.0.0.nupkg.sha512",
+        "Microsoft.NETCore.Platforms.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.2.0.0.nupkg.sha512",
-        "microsoft.netcore.platforms.nuspec",
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -7459,7 +7459,7 @@
       ]
     },
     "NETStandard.Library/2.0.0": {
-      "sha512": "57OfZKSLfOmdCIbeRF+8zO7lqZFkKSr539xBJm1S8bzfoox+nnKgfPXmCCqYpetPlPwoygAZG/h1nALBYbcdlg==",
+      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
       "type": "package",
       "path": "netstandard.library/2.0.0",
       "files": [
@@ -7587,7 +7587,7 @@
       ]
     },
     "Newtonsoft.Json/10.0.1": {
-      "sha512": "mmCzPlA9SR50zQ8BpRnI1DiD3klXQElzi2YOPcr/LaUhHxfWVg37mXmcpA71W2Ec68UkV2EAwBJ3dYwN8Bn93g==",
+      "sha512": "ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
       "type": "package",
       "path": "newtonsoft.json/10.0.1",
       "files": [
@@ -9270,7 +9270,7 @@
       ]
     },
     "System.Interactive.Async/3.1.1": {
-      "sha512": "8PXNmhsjWf6+AUIlqhf+bp4wiW7S2Bw3AI0muqVxdCxJ1bt8r7wADwGbEMWp6CmxO2MOrYnFFSq4jGtjcNXX9Q==",
+      "sha512": "hZccYiIE5RS1/J9Tb/BNtosAGVggdlsJm4Ojdu+gDV0p4AIi+LUfUogMKkRacljQEJd2AG6vYzvcjhQFkqoZmw==",
       "type": "package",
       "path": "system.interactive.async/3.1.1",
       "files": [
@@ -10955,7 +10955,7 @@
       ]
     },
     "System.Runtime.Serialization.Formatters/4.3.0": {
-      "sha512": "mD20yVByJE105WRTa/L18Ok6kw327M+5CZvjgHMKGYOTP9xJDZUhS9wOxVCH4FTTi42tn3dnV+HiBvboRT03Kw==",
+      "sha512": "KT591AkTNFOTbhZlaeMVvfax3RqhH1EJlcwF50Wm7sfnBLuHiOeZRRKrr1ns3NESkM20KPZ5Ol/ueMq5vg4QoQ==",
       "type": "package",
       "path": "system.runtime.serialization.formatters/4.3.0",
       "files": [
@@ -12601,25 +12601,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dimba\\.nuget\\packages\\": {},
+    "C:\\Users\\Dimbata\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dimba\\source\\repos\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
+      "projectUniqueName": "C:\\Work\\Dutch Treat\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
       "projectName": "DutchTreat",
-      "projectPath": "C:\\Users\\Dimba\\source\\repos\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
-      "packagesPath": "C:\\Users\\Dimba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dimba\\source\\repos\\DutchTreat\\DutchTreat\\obj\\",
+      "projectPath": "C:\\Work\\Dutch Treat\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
+      "packagesPath": "C:\\Users\\Dimbata\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\Dutch Treat\\DutchTreat\\DutchTreat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dimba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dimbata\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],

@@ -9,3 +9,14 @@ C:\Users\Dimba\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchT
 C:\Users\Dimba\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.AssemblyInfo.cs
 C:\Users\Dimba\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.dll
 C:\Users\Dimba\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.pdb
+C:\Work\Dutch Treat\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.0\DutchTreat.deps.json
+C:\Work\Dutch Treat\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.0\DutchTreat.runtimeconfig.json
+C:\Work\Dutch Treat\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.0\DutchTreat.runtimeconfig.dev.json
+C:\Work\Dutch Treat\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.0\DutchTreat.dll
+C:\Work\Dutch Treat\DutchTreat\DutchTreat\bin\Debug\netcoreapp2.0\DutchTreat.pdb
+C:\Work\Dutch Treat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.csprojResolveAssemblyReference.cache
+C:\Work\Dutch Treat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.csproj.CoreCompileInputs.cache
+C:\Work\Dutch Treat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.AssemblyInfoInputs.cache
+C:\Work\Dutch Treat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.AssemblyInfo.cs
+C:\Work\Dutch Treat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.dll
+C:\Work\Dutch Treat\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.0\DutchTreat.pdb
