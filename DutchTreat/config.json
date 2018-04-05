@@ -12,5 +12,7 @@
     "Key": "asdasdlasdk;laksd;lakd;la",
     "Issuer": "localhost",
     "Audience": "users"
+  },
+  "Data" : {
   }
 }
