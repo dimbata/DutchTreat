@@ -5,7 +5,7 @@
     "./wwwroot/ts"
   ],
   "compilerOptions": {
-    "outDir": "./wwroot/clientapp/out-tsc",
+    "outDir": "./wwwroot/clientapp/out-tsc",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
