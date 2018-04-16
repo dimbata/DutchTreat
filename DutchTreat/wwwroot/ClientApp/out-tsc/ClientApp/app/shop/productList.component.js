@@ -26,6 +26,9 @@ var ProductList = /** @class */ (function () {
             }
         });
     };
+    ProductList.prototype.addProduct = function (product) {
+        this.data.addToOrder(product);
+    };
     ProductList = __decorate([
         core_1.Component({
             selector: "product-list",

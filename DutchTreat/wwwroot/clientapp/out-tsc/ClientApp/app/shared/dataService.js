@@ -11,11 +11,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var http_1 = require("@angular/common/http");
 var core_1 = require("@angular/core");
+var order_1 = require("./order");
 require("rxjs/add/operator/map");
 var DataService = /** @class */ (function () {
     function DataService(http) {
         this.http = http;
+        this.token = "";
         this.products = [];
+        this.order = new order_1.Order();
     }
     DataService.prototype.loadProducts = function () {
         var _this = this;
@@ -24,6 +27,31 @@ var DataService = /** @class */ (function () {
             _this.products = data;
             return true;
         });
+    };
+    Object.defineProperty(DataService.prototype, "loginRequired", {
+        get: function () {
+            return this.token.length == 0 || this.tokenExpiration > new Date();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    DataService.prototype.addToOrder = function (newProduct) {
+        var item = this.order.items.find(function (i) { return i.productId == newProduct.id; });
+        if (item) {
+            item.quantity++;
+        }
+        else {
+            item = new order_1.OrderItem();
+            item.productId = newProduct.id;
+            item.productArtist = newProduct.artist;
+            item.productArtId = newProduct.artId;
+            item.productCategory = newProduct.category;
+            item.productSize = newProduct.size;
+            item.productTitle = newProduct.title;
+            item.unitPrice = newProduct.price;
+            item.quantity = 1;
+            this.order.items.push(item);
+        }
     };
     DataService = __decorate([
         core_1.Injectable(),
