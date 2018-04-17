@@ -4,6 +4,7 @@ import { Observable } from "rxjs";
 import { Product } from "./product";
 import { Order, OrderItem } from "./order";
 import "rxjs/add/operator/map";
+import { HttpHeaders } from "@angular/common/http";
 
 
 @Injectable()
@@ -36,6 +37,20 @@ export class DataService {
             .map((data: any) => {
                 this.token = data.token;
                 this.tokenExpiration = data.expiration;
+                return true;
+            });
+    }
+
+    public checkOut() {
+        if (!this.order.orderNumber) {
+            this.order.orderNumber = this.order.orderDate.getFullYear().toString() + this.order.orderDate.getTime();
+        }
+        return this.http.post("/api/orders", this.order,
+            {
+                headers: new HttpHeaders().set("Authorization", "Bearer " + this.token)
+    })
+            .map(response => {
+                this.order = new Order();
                 return true;
             });
     }

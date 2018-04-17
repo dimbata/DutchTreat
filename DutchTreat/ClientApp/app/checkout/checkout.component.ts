@@ -9,10 +9,18 @@ import { Router } from "@angular/router";
 })
 export class Checkout {
 
-  constructor(public data: DataService) {
-  }
+    constructor(public data: DataService, public router: Router) {
+    }
 
-  onCheckout() {
+    errorMessage: string = "";
 
-  }
+    onCheckout() {
+        this.data.checkOut()
+            .subscribe(success => {
+                    if (success) {
+                        this.router.navigate(["/"]);
+                    }
+                },
+                err => this.errorMessage = "Failed to save order!");
+    }
 }
