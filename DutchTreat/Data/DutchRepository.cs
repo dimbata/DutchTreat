@@ -120,6 +120,16 @@ namespace DutchTreat.Data
             }
         }
 
+        public void AddOrder(Order newOrder)
+        {
+            foreach (var item in newOrder.Items)
+            {
+                item.Product = _ctx.Products.Find(item.Product.Id);
+            }
+
+            AddEntity(newOrder);
+        }
+
         public void AddEntity(object model)
         {
             _ctx.Add(model);
