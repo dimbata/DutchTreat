@@ -1,4 +1,5 @@
 {
+  "DisableSSL": false,
   "ConnectionStrings": {
     "DutchConnectionString": "Data Source=(localdb)\\ProjectsV13;Initial Catalog=DutchTreatDb;Integrated Security=True;MultipleActiveResultSets=true;"
   },
@@ -13,6 +14,6 @@
     "Issuer": "localhost",
     "Audience": "users"
   },
-  "Data" : {
+  "Data": {
   }
 }

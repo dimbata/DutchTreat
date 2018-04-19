@@ -71,7 +71,7 @@ namespace DutchTreat
 
             services.AddMvc(opt =>
                 {
-                    if (_env.IsProduction())
+                    if (_env.IsStaging())
                     {
                         opt.Filters.Add(new RequireHttpsAttribute());
                     }
